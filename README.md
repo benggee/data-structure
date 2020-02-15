@@ -14,8 +14,8 @@
   - [并查集 Union Find](#tree-union-find)
   - [线段对 Segment Tree](#tree-segment-tree)
   - [字典树 Trie](#tree-trie)
-  - [平衡二叉树 AVL Tree](#tree-avl-tree]
-  - [红黑树 Red Back Tree](#tree-red-back-tree]
+  - [平衡二叉树 AVL Tree](#tree-avl-tree)
+  - [红黑树 Red Back Tree](#tree-red-back-tree)
 
 
 
