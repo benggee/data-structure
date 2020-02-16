@@ -1,6 +1,6 @@
 # 数据结构与算法  
 - 线性数组结构  
-  - [数组 Array](#line-array)
+  - [数组 Array](#line-array.md)
   - [链表 Link List](#line-link-list)
   - [队列 Queue](#line-queue)
   - [堆栈（栈）Stack](#line-stack)
