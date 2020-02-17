@@ -28,8 +28,6 @@ int main() {
 
     delete[] arr;
 
-
-
     // 对结构体的排序
     // Student d[4] = {{"D", 94}, {"C", 50}, {"B", 60}, {"A", 95}};
     // selectSort(d, 4);
