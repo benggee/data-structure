@@ -19,4 +19,6 @@
 - 图 
   - 陆续更新
   
+- 排序算法
+  - [选择排序 Select Sort](DOCS/select-sort.md)
 
