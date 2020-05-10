@@ -1,2 +1,2 @@
 ## 代码示例
-- [Java版本](../../tree/java/Array)
+- [Java版本](../../../tree/java/Array)
