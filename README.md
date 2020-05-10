@@ -21,4 +21,9 @@
   
 - 排序算法
   - [选择排序 Select Sort](DOCS/select-sort.md)
+  - [冒泡排序 Bubble Sort](DOCS/bubble-sort.md)
+  - [插入排序 Insertion Sort](DOCS/insertion-sort.md)
+  - [希尔排序 Shell Sort](DOCS/shell-sort.md)
+  - [归并排序 Merge Sort](DOCS/merge-sort.md)
+
 
