@@ -25,5 +25,5 @@
   - [插入排序 Insertion Sort](DOCS/insertion-sort.md)
   - [希尔排序 Shell Sort](DOCS/shell-sort.md)
   - [归并排序 Merge Sort](DOCS/merge-sort.md)
-  - [快速排序 Merge Sort](DOCS/quick-sort.md)
+  - [快速排序 Quick Sort](DOCS/quick-sort.md)
 
