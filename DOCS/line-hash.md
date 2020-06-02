@@ -1,2 +1,3 @@
 ## 代码示例
-- [Java版本](../../../tree/java/Hash)
+- [Hash Table哈希表（Java）](../../../tree/java/Hash)
+- [Hash Table哈希表（Go）](../../../tree/go/datastructure/hash.go)
