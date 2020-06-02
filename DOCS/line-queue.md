@@ -1,2 +1,3 @@
 ## 代码示例
-- [Java版本](../../../tree/java/Queue)
+- [Queue队列（Java）](../../../tree/java/Queue)
+- [Queue队列（Go）](../../../tree/go/datastructure/queue.go)
