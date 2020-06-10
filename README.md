@@ -21,6 +21,7 @@
   - [邻接表的实现(链表) LinkList](DOCS/graph-linklist.md)
   - [邻接表的实现(哈希表) HashSet](DOCS/graph-hashset.md)
   - [邻接表的实现(红黑树) TreeSet](DOCS/graph-treeset.md)
+  - [图的深度优先遍历(前、后序) Graph DFS](DOCS/graph-dfs-order.md)
   
 - 排序算法
   - [选择排序 Select Sort](DOCS/select-sort.md)
