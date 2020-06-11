@@ -22,6 +22,8 @@
   - [邻接表的实现(哈希表) HashSet](DOCS/graph-hashset.md)
   - [邻接表的实现(红黑树) TreeSet](DOCS/graph-treeset.md)
   - [图的深度优先遍历(前、后序) Graph DFS](DOCS/graph-dfs-order.md)
+  - [图的分量求解 Graph CC](DOCS/graph-cc.md)
+  - [图的单源路径（深度优先） Single Source DFS](DOCS/singlesource-order.md)
   
 - 排序算法
   - [选择排序 Select Sort](DOCS/select-sort.md)
