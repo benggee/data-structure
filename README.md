@@ -16,23 +16,22 @@
   - [字典树 Trie](DOCS/tree-trie.md)
   - [平衡二叉树 AVL Tree](DOCS/tree-avl-tree.md)
   - [红黑树 Red Back Tree](DOCS/tree-red-back-tree.md)
-- 图 
-  *** 无权图***
+- 图     
+  **无权图**    
   - [邻接矩阵的实现(矩阵) Matrix](DOCS/graph-matrix.md)
   - [邻接表的实现(链表) LinkList](DOCS/graph-linklist.md)
   - [邻接表的实现(哈希表) HashSet](DOCS/graph-hashset.md)
-  - [邻接表的实现(红黑树) TreeSet](DOCS/graph-treeset.md)
-  *** 无权图(深度优先) ***
+  - [邻接表的实现(红黑树) TreeSet](DOCS/graph-treeset.md)     
+  **无权图(深度优先)**   
   - [图的深度优先遍历(前、后序) Graph DFS](DOCS/graph-dfs-order.md)
   - [图的分量求解 Graph CC](DOCS/graph-cc.md)
   - [图的单源路径 Single Source DFS](DOCS/singlesource-order.md)
-  - [是否是二分图] Bipartition Detetion DFS](DOCS/bipartition-detection.md)
-
-  *** 无权图(广度优先) ***
-  - [广度优先遍历基本实现] Graph BFS](DOCS/graph-bfs.md)
+  - [是否是二分图] Bipartition Detetion DFS](DOCS/bipartition-detection.md)    
+  **无权图(广度优先)**       
+  - [广度优先遍历基本实现] Graph BFS](DOCS/graph-bfs.md)    
   - [检测环] Has Cycle BFS](DOCS/cycledetection.md)
   - [单源路径求解] Single Path BFS](DOCS/single-source-path-dfs.md)
-  - [求路径长度] Source Length BFS](DOCS/ussspath-bfs.md)
+  - [求路径长度] Source Length BFS](DOCS/ussspath-bfs.md)   
   
 - 排序算法
   - [选择排序 Select Sort](DOCS/select-sort.md)
