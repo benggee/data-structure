@@ -34,6 +34,8 @@
   - [检测环 Has Cycle BFS](DOCS/cycledetection.md)
   - [单源路径求解 Single Path BFS](DOCS/single-source-path-dfs.md)
   - [求路径长度 Source Length BFS](DOCS/ussspath-bfs.md)   
+
+  - [Floodfill算法 Floodfill](DOCS/floodfill.md)   
   
 - 排序算法
   - [选择排序 Select Sort](DOCS/select-sort.md)
