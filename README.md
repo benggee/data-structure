@@ -41,6 +41,9 @@
   - [哈密尔顿回路(基于状态压缩的实现) Hamilton Loop Zip Status](DOCS/graph-hamiltonloop.md)
   - [哈密尔顿路径 Hamilton Path](DOCS/graph-hamiltonpath.md)
   
+有权图
+  - [建图(红黑树) TreeSet](DOCS/weight-graph-treeset.md)   
+
 - 排序算法
   - [选择排序 Select Sort](DOCS/select-sort.md)
   - [冒泡排序 Bubble Sort](DOCS/bubble-sort.md)
