@@ -39,6 +39,7 @@
   - [Floodfill算法基础实现 Floodfill](DOCS/floodfill.md)   
   - [哈密尔顿回路 Hamilton Loop](DOCS/graph-hamiltonloop.md)
   - [哈密尔顿回路(基于状态压缩的实现) Hamilton Loop Zip Status](DOCS/graph-hamiltonloop.md)
+  - [哈密尔顿路径 Hamilton Path](DOCS/graph-hamiltonpath.md)
   
 - 排序算法
   - [选择排序 Select Sort](DOCS/select-sort.md)
