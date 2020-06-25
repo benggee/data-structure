@@ -48,6 +48,8 @@
   - [最小生成树（Kruskal）](DOCS/weight-graph-kruskal.md)   
   - [最小生成树（Prim）](DOCS/graph/prim.md)   
   - [最短路径 (Dijkstra）](DOCS/graph/dijkstra.md)   
+  - [最短路径 (Bellman Ford)](DOCS/graph/bellman-ford.md)   
+  - [最短路径 (Floyed)](DOCS/graph/floyed.md)   
 
 
 - 排序算法
