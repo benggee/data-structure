@@ -45,7 +45,9 @@
   - [建图(红黑树) TreeSet](DOCS/weight-graph-treeset.md)   
   
   有权图算法
-  - [最小生成树（Kruskal实现）](DOCS/weight-graph-kruskal.md)   
+  - [最小生成树（Kruskal）](DOCS/weight-graph-kruskal.md)   
+  - [最小生成树（Prim）](DOCS/graph/prim.md)   
+  - [最短路径 (Dijkstra）](DOCS/graph/dijkstra.md)   
 
 
 - 排序算法
