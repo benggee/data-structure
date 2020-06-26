@@ -56,6 +56,8 @@
 
   有向图
   - [建图](DOCS/graph/direction-graph.md)   
+  
+  有向图算法    
   - [检测环](DOCS/graph/direction-cycle-detection.md)   
   - [计算强联通分量(Kosaraju算法)](DOCS/graph/scc.md)   
   - [拓扑排序](DOCS/graph/toposort.md)   
