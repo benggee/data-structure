@@ -42,6 +42,7 @@
   - [哈密尔顿路径 Hamilton Path](DOCS/graph-hamiltonpath.md)
   - [寻找桥](DOCS/graph/find-bridge.md)
   - [寻找割点](DOCS/graph/find-cut-points.md)
+  - [欧拉路径（Hierholzer算法）](DOCS/graph/find-cut-points.md)
   
   有权图
   - [建图(红黑树) TreeSet](DOCS/weight-graph-treeset.md)   
