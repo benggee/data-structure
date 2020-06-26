@@ -57,6 +57,8 @@
   - [计算强联通分量(Kosaraju算法)](DOCS/graph/scc.md)   
   - [拓扑排序](DOCS/graph/toposort.md)   
   - [最大网络流（Edmonds Karp算法）](DOCS/graph/maxflow.md)   
+  - [最大匹配（Edmonds Karp算法）](DOCS/graph/dipartite-matching.md)   
+  - [最大匹配（匈牙利算法）](DOCS/graph/hungarian.md)   
 
 
 - 排序算法
