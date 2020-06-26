@@ -40,6 +40,8 @@
   - [哈密尔顿回路 Hamilton Loop](DOCS/graph-hamiltonloop.md)
   - [哈密尔顿回路(基于状态压缩的实现) Hamilton Loop Zip Status](DOCS/graph-hamiltonloop.md)
   - [哈密尔顿路径 Hamilton Path](DOCS/graph-hamiltonpath.md)
+  - [寻找桥](DOCS/graph/find-bridge.md)
+  - [寻找割点](DOCS/graph/find-cut-points.md)
   
   有权图
   - [建图(红黑树) TreeSet](DOCS/weight-graph-treeset.md)   
