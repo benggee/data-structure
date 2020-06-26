@@ -42,7 +42,7 @@
   - [哈密尔顿路径 Hamilton Path](DOCS/graph-hamiltonpath.md)
   - [寻找桥](DOCS/graph/find-bridge.md)
   - [寻找割点](DOCS/graph/find-cut-points.md)
-  - [欧拉路径（Hierholzer算法）](DOCS/graph/find-cut-points.md)
+  - [欧拉路径（Hierholzer算法）](DOCS/graph/euler-loop.md)
   
   有权图
   - [建图(红黑树) TreeSet](DOCS/weight-graph-treeset.md)   
@@ -62,6 +62,7 @@
   - [最大网络流（Edmonds Karp算法）](DOCS/graph/maxflow.md)   
   - [最大匹配（Edmonds Karp算法）](DOCS/graph/dipartite-matching.md)   
   - [最大匹配（匈牙利算法）](DOCS/graph/hungarian.md)   
+  - [欧拉路径（Hierholzer 算法）](DOCS/graph/direction-euler-loop.md)
 
 
 - 排序算法
