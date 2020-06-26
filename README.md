@@ -56,6 +56,7 @@
   - [检测环](DOCS/graph/direction-cycle-detection.md)   
   - [计算强联通分量(Kosaraju算法)](DOCS/graph/scc.md)   
   - [拓扑排序](DOCS/graph/toposort.md)   
+  - [最大网络流（Edmonds Karp算法）](DOCS/graph/maxflow.md)   
 
 
 - 排序算法
