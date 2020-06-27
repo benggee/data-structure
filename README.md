@@ -32,7 +32,7 @@
   广度优先遍历    
   - [广度优先遍历基本实现 Graph BFS](DOCS/graph-bfs.md)    
   - [检测环 Has Cycle BFS](DOCS/cycledetection.md)
-  - [单源路径求解 Single Path BFS](DOCS/single-source-path-dfs.md)
+  - [单源路径求解 Single Path BFS](DOCS/single-source-path-bfs.md)
   - [求路径长度 Source Length BFS](DOCS/ussspath-bfs.md)     
 
   无权图算法   
