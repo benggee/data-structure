@@ -24,7 +24,7 @@ public:
         }
 
         vector<int> resultVector;
-        for (set<int>::iterator iter = result.begin(); iter != result.end(); iter ++) {
+        for (set<int>::      iter = result.begin(); iter != result.end(); iter ++) {
             resultVector.push_back( *iter );
         }
         return resultVector;
