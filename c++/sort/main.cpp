@@ -13,13 +13,14 @@
 #include "mergesort.h"
 #include "quicksort.h"
 #include "quicksort2ways.h"
+#include "quicksort3ways.h"
 
 using namespace std;
 
 
 
 int main() {
-    int n = 1000000;
+    int n = 100000;
 
     cout << "Test for random arr, size=" << n << ", random range [0," << n << "]" << endl;
     int *arr = SortTestHelper::generateRandomArr(n, 0, n);
@@ -35,6 +36,7 @@ int main() {
     int *arr10 = SortTestHelper::copyIntArray(arr, n);
     int *arr11 = SortTestHelper::copyIntArray(arr, n);
     int *arr12 = SortTestHelper::copyIntArray(arr, n);
+    int *arr13 = SortTestHelper::copyIntArray(arr, n);
 
     // O(NLogN)复杂度算法
 //    SortTestHelper::testSort("Heap Sort 1", HeapSort::heapSort1, arr1, n);
@@ -44,6 +46,7 @@ int main() {
     SortTestHelper::testSort("Merge Sort BU", MergeSort::mergeSortBU, arr10, n);
     SortTestHelper::testSort("Quick Sort", QuickSort::quickSort, arr11, n);
     SortTestHelper::testSort("Quick Sort 2 ways", QuickSort2Ways::quickSort, arr12, n);
+    SortTestHelper::testSort("Quick Sort 3 ways", QuickSort3Ways::quickSort, arr13, n);
 
     // O(n^2)复杂度算法
 //    SortTestHelper::testSort("Selection Sort", SelectionSort::selectionSort, arr4, n);
@@ -72,28 +75,34 @@ int main() {
     int *oarr1 = SortTestHelper::copyIntArray(oarr, n);
     int *oarr2 = SortTestHelper::copyIntArray(oarr, n);
     int *oarr3 = SortTestHelper::copyIntArray(oarr, n);
+    int *oarr4 = SortTestHelper::copyIntArray(oarr, n);
 
     SortTestHelper::testSort("Merge Sort", MergeSort::mergeSort,oarr1, n);
     SortTestHelper::testSort("Quick Sort", QuickSort::quickSort, oarr2, n);
-    SortTestHelper::testSort("Quick Sort", QuickSort2Ways::quickSort, oarr3, n);
+    SortTestHelper::testSort("Quick Sort 2 Ways", QuickSort2Ways::quickSort, oarr3, n);
+    SortTestHelper::testSort("Quick Sort 3 Ways", QuickSort3Ways::quickSort, oarr4, n);
 
     delete[] oarr1;
     delete[] oarr2;
     delete[] oarr3;
+    delete[] oarr4;
 
     cout << "Test for repeat arr, size=" << n << ", order range [0," << n << "]" << endl;
     int *rarr = SortTestHelper::generateRandomArr(n, 0, 10);
     int *rarr1 = SortTestHelper::copyIntArray(rarr, n);
     int *rarr2 = SortTestHelper::copyIntArray(rarr, n);
     int *rarr3 = SortTestHelper::copyIntArray(rarr, n);
+    int *rarr4 = SortTestHelper::copyIntArray(rarr, n);
 
     SortTestHelper::testSort("Merge Sort", MergeSort::mergeSort, rarr1, n);
-    SortTestHelper::testSort("Quick Sort", QuickSort::quickSort, rarr2, n);
-    SortTestHelper::testSort("Queck Sort2", QuickSort2Ways::quickSort, rarr3, n);
+    // SortTestHelper::testSort("Quick Sort", QuickSort::quickSort, rarr2, n);
+    SortTestHelper::testSort("Quick Sort 2 ways", QuickSort2Ways::quickSort, rarr3, n);
+    SortTestHelper::testSort("Quick Sort 3 ways", QuickSort3Ways::quickSort, rarr4, n);
 
     delete[] rarr1;
     delete[] rarr2;
     delete[] rarr3;
+    delete[] rarr4;
 
 
     return 0;
