@@ -17,6 +17,8 @@
 #include "lazy_prim_mst.h"
 #include "prim_mst.h"
 #include "kruskal_mst.h"
+#include "dijkstra.h"
+#include "bellmanford.h"
 
 using namespace std;
 
@@ -28,6 +30,8 @@ void testShortPathBFS();        // 最短路径-广度优先
 void testWeightDenseGraph();    // 带权图
 void testLazyPrim();            // 最小生成树
 void testMinTree();             // 最小生成树
+void testDijkstra();            // Dijkstra算法 最短路径
+void testBellmanford();         // bellmanford 最短路径
 
 int main() {
     // readGraph();
@@ -36,9 +40,60 @@ int main() {
     // testShortPathBFS();
     // testWeightDenseGraph();
     // testLazyPrim();
-    testMinTree();
+    // testMinTree();
+    // testDijkstra();
+    testBellmanford();
 
     return 0;
+}
+
+void testBellmanford() {
+    string filename1 = "/Users/HEADS/app/data-structure/c++/graph/test-data/short-path.txt";
+    int v = 5;
+
+    WeightSparseGraph<int> g = WeightSparseGraph<int>(v, true);
+    WeightReadGraph<WeightSparseGraph<int>, int> readGraph(g, filename1);
+
+    cout << "Bellman-Ford:" << endl << endl;
+
+    int s = 0;
+    BellmanFord<WeightSparseGraph<int>, int> bellmanFord(g, s);
+    if (bellmanFord.negativeCycle())
+        cout << "The graph contain negative cycle." << endl;
+    else
+        for (int i = 0; i < v; i ++) {
+            if (i == s)
+                continue;
+            if (bellmanFord.hasPathTo(i)) {
+                cout << "short path to " << i << ":" << bellmanFord.shortPathTo(i) << endl;
+                bellmanFord.showPath(i);
+            } else {
+                cout << "No Path to" << i << endl;
+            }
+            cout << "-----------" << endl;
+        }
+
+}
+
+void testDijkstra() {
+    string filename1 = "/Users/HEADS/app/data-structure/c++/graph/test-data/short-path.txt";
+    int v = 5;
+
+    WeightSparseGraph<int> g = WeightSparseGraph<int>(v, true); // 有向图
+    WeightReadGraph<WeightSparseGraph<int>, int> readGraph(g, filename1);
+
+    cout << "Test Dijkstra:" << endl<< endl;
+
+    Dijkstra<WeightSparseGraph<int>, int> dij(g, 0);
+    for (int i = 0; i < v; i ++) {
+        if (dij.hasPathTo(i)) {
+            cout << "short path to" << i << ":" << dij.shortPathTo(i)<<endl;
+            dij.showPath(i);
+        } else {
+            cout << "No path to" << i << endl;
+        }
+        cout << "--------" << endl;
+    }
 }
 
 void testMinTree() {
