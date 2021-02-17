@@ -41,6 +41,8 @@ void testLazyPrim() {
     string filename = "/Users/HEADS/app/data-structure/c++/graph/test-data/lazy-prim.txt";
     int v = 8;
 
+    cout << fixed << setprecision(2);  // 设置精度保留两位小数
+
     WeightSparseGraph<double> g = WeightSparseGraph<double>(v, false);
     WeightReadGraph<WeightSparseGraph<double>, double> readGraph(g, filename);
 

@@ -29,7 +29,8 @@ private:
 
         typename Graph::adjIterator adj(G, v);
         for (Edge<Weight>* e = adj.begin(); !adj.end(); e = adj.next())
-            pq.insert(*e);
+            if (!marked[e->other(v)])
+                pq.insert(*e);
     }
 
 public:

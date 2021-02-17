@@ -38,7 +38,7 @@ public:
     int V() {return n;}
     int E() {return m;}
 
-    void addEdge(int v, int w, int weight) {
+    void addEdge(int v, int w, double weight) {
         assert(v >= 0 && v < n);
         assert(w >= 0 && w < n);
 
