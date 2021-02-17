@@ -14,24 +14,45 @@
 #include "weight_dense_graph.h"
 #include "weight_read_graph.h"
 #include "weight_sparse_graph.h"
+#include "lazy_prim_mst.h"
 
 using namespace std;
 
 void graphTest1();
-void readGraph();
-void testComponent();
-void testPath();
-void testShortPathBFS();
-void testWeightDenseGraph();
+void readGraph();               // 从文件读取内容建图
+void testComponent();           // 图的实现
+void testPath();                // 求路径
+void testShortPathBFS();        // 最短路径-广度优先
+void testWeightDenseGraph();    // 带权图
+void testLazyPrim();            // 最小生成树
 
 int main() {
     // readGraph();
     // testComponent();
     // testPath();
     // testShortPathBFS();
-    testWeightDenseGraph();
+    // testWeightDenseGraph();
+    testLazyPrim();
 
     return 0;
+}
+
+void testLazyPrim() {
+    string filename = "/Users/HEADS/app/data-structure/c++/graph/test-data/lazy-prim.txt";
+    int v = 8;
+
+    WeightSparseGraph<double> g = WeightSparseGraph<double>(v, false);
+    WeightReadGraph<WeightSparseGraph<double>, double> readGraph(g, filename);
+
+    cout << "Lazy Prim MST:" << endl;
+    LazyPrimMST<WeightSparseGraph<double>, double> lazyPrimMst(g);
+    vector<Edge<double>> mst = lazyPrimMst.mstEdges();
+    for (int i = 0; i < mst.size(); i ++) {
+        cout << mst[i] << endl;
+    }
+
+    cout << "The MST weight is:" << lazyPrimMst.result()<<endl;
+    cout << endl;
 }
 
 void testWeightDenseGraph() {

@@ -25,7 +25,7 @@ public:
         this->n = n;
         this->m = 0;
         this->directed = directed;
-        g = vector<vector<Edge<Weight> *>>(n, vector<Edge<Weight> *>(NULL));
+        g = vector<vector<Edge<Weight> *>>(n, vector<Edge<Weight> *>());
     }
 
     ~WeightSparseGraph() {
@@ -85,7 +85,7 @@ public:
             idx = 0;
             if (G.g[v].size())
                 return G.g[v][idx];
-            return -1;
+            return NULL;
         }
 
         // 返回图G中与顶点v相连的下一个顶点
