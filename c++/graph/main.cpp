@@ -16,6 +16,7 @@
 #include "weight_sparse_graph.h"
 #include "lazy_prim_mst.h"
 #include "prim_mst.h"
+#include "kruskal_mst.h"
 
 using namespace std;
 
@@ -26,7 +27,7 @@ void testPath();                // 求路径
 void testShortPathBFS();        // 最短路径-广度优先
 void testWeightDenseGraph();    // 带权图
 void testLazyPrim();            // 最小生成树
-void testPrim();                // 最小生成树，索引堆实现
+void testMinTree();             // 最小生成树
 
 int main() {
     // readGraph();
@@ -35,12 +36,12 @@ int main() {
     // testShortPathBFS();
     // testWeightDenseGraph();
     // testLazyPrim();
-    testPrim();
+    testMinTree();
 
     return 0;
 }
 
-void testPrim() {
+void testMinTree() {
     string filename1 = "/Users/HEADS/app/data-structure/c++/graph/test-data/prim1.txt";
     int V1 = 8;
 
@@ -143,6 +144,31 @@ void testPrim() {
 //    cout<<"Test for G5: "<<(double)(endTime-startTime)/CLOCKS_PER_SEC<<" s."<<endl;
 
     cout<<endl;
+
+
+    cout << "Test Kruskal MST:" << endl;
+    startTime = clock();
+    KruskalMST<WeightSparseGraph<double>, double> kruskalMst1(g1);
+    endTime = clock();
+    cout << "Test for G1:" << (double )(endTime-startTime)/CLOCKS_PER_SEC<<" s." << endl;
+
+    cout << "Test Kruskal MST:" << endl;
+    startTime = clock();
+    KruskalMST<WeightSparseGraph<double>, double> kruskalMst2(g2);
+    endTime = clock();
+    cout << "Test for G2:" << (double )(endTime-startTime)/CLOCKS_PER_SEC<<" s." << endl;
+
+    cout << "Test Kruskal MST:" << endl;
+    startTime = clock();
+    KruskalMST<WeightSparseGraph<double>, double> kruskalMst3(g3);
+    endTime = clock();
+    cout << "Test for G3:" << (double )(endTime-startTime)/CLOCKS_PER_SEC<<" s." << endl;
+
+    cout << "Test Kruskal MST:" << endl;
+    startTime = clock();
+    KruskalMST<WeightSparseGraph<double>, double> kruskalMst4(g4);
+    endTime = clock();
+    cout << "Test for G4:" << (double )(endTime-startTime)/CLOCKS_PER_SEC<<" s." << endl;
 }
 
 void testLazyPrim() {
