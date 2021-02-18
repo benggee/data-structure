@@ -2,8 +2,8 @@
 // Created by HEADS on 2021/2/18.
 //
 
-#ifndef LIST_DLIST_H
-#define LIST_DLIST_H
+#ifndef DLIST_H
+#define DLIST_H
 
 #include <stdlib.h>
 
@@ -37,4 +37,4 @@ int dlist_remove(DList *list, DListElmt *element, void **data);
 #define dlist_next(element) ((element)->next)
 #define dlist_prev(element) ((element)->prev)
 
-#endif //LIST_DLIST_H
+#endif //DLIST_H

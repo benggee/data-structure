@@ -2,8 +2,8 @@
 // Created by HEADS on 2021/2/16.
 //
 
-#ifndef C___LIST_H
-#define C___LIST_H
+#ifndef LIST_H
+#define LIST_H
 
 #include <stdlib.h>
 
@@ -35,4 +35,4 @@ int list_rem_next(List *list, ListElmt *element, void **data);
 #define list_data(element) ((element)->data)
 #define list_next(element) ((element)->next)
 
-#endif //C___LIST_H
+#endif //LIST_H
