@@ -1,7 +1,9 @@
 //
 // Created by HEADS on 2021/2/16.
+// 单链表
 //
 
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
@@ -60,7 +62,7 @@ int list_ins_next(List *list, ListElmt *element, const void *data) {
 }
 
 
-int list_rem_next(List *list, ListElmt *element, void *data) {
+int list_rem_next(List *list, ListElmt *element, void **data) {
     ListElmt *old_element;
 
     if (list_size(list) == 0)
