@@ -1,2 +1,2 @@
 ## 代码示例
-- [Golang版本](../../../tree/go/sort/bubblesort.go)
+- [Golang版本](../golang/sort/bubblesort.go)

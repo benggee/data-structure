@@ -1,2 +1,2 @@
 ## 代码示例
-- [Golang版本](../../../tree/go/sort/insertionsort.go)
+- [Golang版本](../golang/sort/insertionsort.go)

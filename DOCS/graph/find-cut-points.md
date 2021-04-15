@@ -1,2 +1,2 @@
 ## 代码示例
-- [Java版本](../../../../tree/java/Graph/src/FindCutPoints.java) 
+- [Java版本](../../java/Graph/src/FindCutPoints.java) 

@@ -1,2 +1,2 @@
 ## 代码示例
-- [Java版本](../../../tree/java/Graph/src/AdjList.java) 
+- [Java版本](../java/Graph/src/AdjList.java) 

@@ -1,2 +1,2 @@
 ## 代码示例
-- [Java版本](../../../../tree/java/Graph/src/FindBrigdes.java) 
+- [Java版本](../../java/Graph/src/FindBrigdes.java) 

@@ -1,2 +1,2 @@
 ## 代码示例
-- [Java版本](../../../../tree/java/WeightGraph/src/Prim.java) 
+- [Java版本](../../java/WeightGraph/src/Prim.java) 

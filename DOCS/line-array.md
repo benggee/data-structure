@@ -1,3 +1,3 @@
 ## 代码示例
-- [Java版本](../../../tree/java/Array) 
-- [Go版本](../../../tree/go/datastructure/array.go)
+- [Java版本](../java/Array) 
+- [Go版本](../golang/datastructure/array.go)

@@ -1,3 +1,3 @@
 ## 代码示例
-- [Java版本](../../../tree/java/BinarySearchTree)
-- [Golang版本](../../../tree/go/datastructure/binarysearchtree.go)
+- [Java版本](../java/BinarySearchTree)
+- [Golang版本](../golang/datastructure/binarysearchtree.go)

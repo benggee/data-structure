@@ -1,3 +1,3 @@
 ## 代码示例
-- [Stack栈（Java）](../../../tree/java/Stack)
-- [Stack栈（Go）](../../../tree/go/datastructure/stack.go)
+- [Stack栈（Java）](../java/Stack)
+- [Stack栈（Go）](../golang/datastructure/stack.go)
