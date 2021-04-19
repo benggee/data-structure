@@ -3,3 +3,5 @@
 - [单链表（Go）](../golang/datastructure/linklist.go)
 - [双向链表（Go）](../golang/datastructure/linklistrl.go)
 - [循环链表（Go）](../golang/datastructure/looplinklist.go)
+- [C(单链表)](../c/list.c)
+- [C(双链表)](../c/dlist.c)
