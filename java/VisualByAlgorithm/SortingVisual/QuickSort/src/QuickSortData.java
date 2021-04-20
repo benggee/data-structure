@@ -24,15 +24,15 @@ public class QuickSortData {
             fixedPivots[i] = false;
         }
 
-        if(dataType == Type.NearlyOrdered){
-            Arrays.sort(numbers);
-            int swapTime = (int)(0.01*N);
-            for(int i = 0 ; i < swapTime; i ++){
-                int a = (int)(Math.random()*N);
-                int b = (int)(Math.random()*N);
-                swap(a, b);
-            }
-        }
+//        if(dataType == Type.NearlyOrdered){
+//            Arrays.sort(numbers);
+//            int swapTime = (int)(0.01*N);
+//            for(int i = 0 ; i < swapTime; i ++){
+//                int a = (int)(Math.random()*N);
+//                int b = (int)(Math.random()*N);
+//                swap(a, b);
+//            }
+//        }
     }
 
     public QuickSortData(int N, int randomBound){
